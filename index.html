@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="automata.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/solid.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>PIA</title>
+</head>
+<body>
+  <div class="topnav">
+    <div class="controls-container">
+      <div class="controls">
+        <div class="control"><a href="#" class="control-btn" id="backward" title="regresar"><i class="fas fa-step-backward"></i></a></div>
+        <div class="control"><a href="#" class="control-btn" id="play" title="reproducir"><i class="fas fa-play"></i></a></div>
+        <div class="control"><a href="#" class="control-btn" id="forward" title="avanzar"><i class="fas fa-step-forward"></i></a></div>
+      </div>
+      <div class="controls">
+        <div class="control"><input type="text" id="text-control"></div>
+        <div class="control"><input type="button" onclick="load()" value="Cargar"></div>
+      </div>
+    </div>
+    <div class="controls"><div class="char-display"></div></div>
+    <div class="controls"><div class="status-display"></div></div>
+  </div>
+  <div class="transitions-table-container">
+    <table class="delta-table">
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</body>
+</html>

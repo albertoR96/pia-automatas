@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.automaton-states-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.automaton-state {
+  margin: 12px auto;
+  width: 21%;
+  text-align: center;
+  height: 23px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+
+.actual-state {
+  background-color: green;
+}
+
+.topnav {
+  height: 10vh;
+  display: flex;
+}
+
+.col {
+  width: 10%;
+  height: 85vh;
+  /* background-color: aquamarine; */
+  display: inline-block;
+}
+
+.control {
+  display: inline;
+  font-size: 40px;
+}
+
+.control-btn {
+  text-decoration: none;
+  color: white;
+}
+
+.delta-table td {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.status-display {
+  font-size: 26pt;
+  border-style: solid;
+  border-width: 3pt;
+  border-radius: 22pt;
+  padding: 6px;
+}
+
+.char-display {
+  font-size: 26pt;
+  margin: 9pt 6pt;
+}
